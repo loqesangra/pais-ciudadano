@@ -2,8 +2,9 @@ declaración-de-principios
 lineamientos
 hashtag
 valores-y-conducta
-estilo-y-contenido
 cómo-colaborar
+lo-que-más-necesita-este-proyecto-en-este-momento
+posibles-capítulos-y-temáticas-a-ser-escritas
 intro
 el-precedente-doc-para-el-país
 documento-para-el-desarme-argentino
