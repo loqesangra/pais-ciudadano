@@ -1,0 +1,11 @@
+# Introducción {#intro}
+
+Entre tantas maravillas que han podido crear los seres humanos a lo largo de su historia una de ellas es, sin duda, la escritura. Hay libros que han movido el curso de La Historia. Aún hoy mucha gente toma referencias y consume libros con muchísimos años de antigüedad.
+
+Este proyecto es encarado con la solemnidad histórica que ha tenido cualquier libro que se precie de serlo, y a la vez, elevando aún más la vara: en estos tiempos donde evolucionamos de manera exponencial (aunque no lo parezca) cualquier libro que se plantee los objetivos que se está planteando este libro tiene que entender que un libro al ser impreso se convierte en antigüo en el momento en que la tinta de la imprenta empapa el papel; País Ciudadano es un libro Vivo, Libre y Participativo, en constante transformación.
+
+Esta idea no es nueva y ya se ha implementado exitosamente, algunos ejemplos:
+
+- https://hybridpedagogy.org/#publishing
+- https://geocompr.github.io/user_19/presentation/#1
+- https://geocompr.robinlovelace.net/

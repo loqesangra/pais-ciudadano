@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "País Ciudadano"
+author: "loqesangra"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,28 +9,60 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "País Ciudadano es un libro de texto open-source, online, ciudadano y participativo, con el objetivo de definir y modelar un modelo de país en manos de la ciudadanía, y a la vez señalar y denunciar las falencias del status quo."
 ---
 
-# Prerequisites
+# Declaración de principios
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+País Ciudadano es un libro:
 
-The **bookdown** package can be installed from CRAN or Github:
+- Open Source
+- Online
+- Ciudadano
+- Participativo
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+El objetivo es tener una referencia online multidisciplinaria de un modelo de país que todavía no se ha pensado. Si los fundadores de las patrias modernas hubieran tenido las herramientas que tenemos hoy, ¿habrían fundado los países tal y como los conocemos?
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+## Lineamientos
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+- El libro no es de nadie y es de tod\@s a la vez
+- La colaboración esta abierta a cualquiera que quiera aportar
+- Será a la vez un espacio político sin chicanas políticas
+- Será una fuente de conocimiento y referencia para el presente y el futuro
+- Será una fuente de educación al explicar y mostrar procesos y metodologías de trabajo que pueden aplicarse en otras áreas
+- Será un lugar limpio de la toxicidad reinante en redes sociales y otras plataformas
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
+## Hashtag
+
+Desde ya que además de los objetivos planteados este proyecto tiene la esperanza de impactar la realidad en algún momento. Se alienta el uso del hashtag **#paisciudadano** en las redes para referirse y comunicar sobre el proyecto. Con el solo hecho de compartir, ya estás colaborando. Inundemos las redes sociales para desperdigar este mensaje.
+
+Se espera que los mensajes generados en redes sociales con este hashtag se abstengan a los siguientes "Valores y reglas de estilo y conducta":
+
+## Valores y conducta
+
+Inspiradas por la [Reddiqueta](https://www.reddit.com/wiki/es/reddiquette) o [Reddiquette](https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette).
+
+- Recordá que quien lee lo que escribís es un ser humano
+- Comportate en internet como te comportarías en la vida real
+- Leé las reglas antes de colaborar
+- Leé la documentación proveída, para algo está
+- La moderación se hará con respecto a la calidad del contenido, no a las opiniones
+- Las opiniones deberán exponerse desde un lugar individual, apartidario y fáctico en la medida de lo posible
+- Usa la gramática y la ortografía correctamente. Se permiten deformaciones del lenguaje siempre y cuando estén en función de la comunicación.
+- Es obligatorio citar fuentes si estás utilizando algún recurso externo
+- Las críticas deben ser constructivas
+- Tratemos de conservar la buena onda. Para mala onda ya es suficiente con la realidad.
+
+Ver "Código de Conducta" para una expansión respecto a estos conceptos: \@ref(codigo-de-conducta).
+
+## Estilo y contenido
+
+El estilo del libro tendrá que ser directo y asumir absolutamente ningún conocimiento previo. La prosa pretende ser informativa, ligera y poética a la vez. Se hablarán de cuestiones técnicas pero también de arte. Combinaremos nuestro arte y cultura con soluciones y medidas concretas para modificar nuestra realidad.
+
+## Cómo colaborar
+
+Una de las iniciativas será escribir una guía para que cualquiera sin conocimientos en desarrollo web, programación o cualquiera de las tecnologías utilizadas por este libro pueda hacerlo. Por el momento la única referencia con respecto a como colaborar será el proyecto original: https://github.com/rstudio/bookdown
+
+
+
