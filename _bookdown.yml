@@ -2,5 +2,12 @@ book_filename: "pais-ciudadano"
 language:
   ui:
     chapter_name: "Capítulo "
+    appendix_name: "Apéndice "
 delete_merged_file: true
 output_dir: "docs"
+rmd_files: [
+  "index.Rmd",
+  "intro.Rmd",
+  "precedente.Rmd",
+  "apendice.Rmd"
+  ]

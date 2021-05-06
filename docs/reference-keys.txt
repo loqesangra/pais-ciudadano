@@ -4,6 +4,11 @@ hashtag
 valores-y-conducta
 estilo-y-contenido
 cómo-colaborar
+intro
+el-precedente-doc-para-el-país
+documento-para-el-desarme-argentino
+argentina-puede-cambiar
+cómo-cambiar
 codigo-de-conducta
 nuestro-compromiso
 nuestros-estándares
@@ -16,8 +21,3 @@ advertencia
 ban-temporal
 ban-permanente
 atribución
-intro
-el-precedente-doc-para-el-país
-documento-para-el-desarme-argentino
-argentina-puede-cambiar
-cómo-cambiar

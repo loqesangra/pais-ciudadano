@@ -1,3 +1,5 @@
+# (APPENDIX) Apéndice {-} 
+
 # Código de conducta {#codigo-de-conducta}
 
 ## Nuestro compromiso

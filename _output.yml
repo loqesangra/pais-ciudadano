@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">País Ciudadano</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado con bookdown</a></li>
-    edit: https://github.com/loqesangra/pais-ciudadano/edit/master/%s
+    edit: https://github.com/loqesangra/pais-ciudadano/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
