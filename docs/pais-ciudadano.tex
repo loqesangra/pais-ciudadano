@@ -1,0 +1,388 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={País Ciudadano},
+  pdfauthor={loqesangra},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{País Ciudadano}
+\author{loqesangra}
+\date{2021-05-06}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{declaraciuxf3n-de-principios}{%
+\chapter{Declaración de principios}\label{declaraciuxf3n-de-principios}}
+
+País Ciudadano es un libro:
+
+\begin{itemize}
+\tightlist
+\item
+  Open Source
+\item
+  Online
+\item
+  Ciudadano
+\item
+  Participativo
+\end{itemize}
+
+El objetivo es tener una referencia online multidisciplinaria de un modelo de país que todavía no se ha pensado. Si los fundadores de las patrias modernas hubieran tenido las herramientas que tenemos hoy, ¿habrían fundado los países tal y como los conocemos?
+
+\hypertarget{lineamientos}{%
+\section{Lineamientos}\label{lineamientos}}
+
+\begin{itemize}
+\tightlist
+\item
+  El libro no es de nadie y es de tod@s a la vez
+\item
+  La colaboración esta abierta a cualquiera que quiera aportar
+\item
+  Será a la vez un espacio político sin chicanas políticas
+\item
+  Será una fuente de conocimiento y referencia para el presente y el futuro
+\item
+  Será una fuente de educación al explicar y mostrar procesos y metodologías de trabajo que pueden aplicarse en otras áreas
+\item
+  Será un lugar limpio de la toxicidad reinante en redes sociales y otras plataformas
+\end{itemize}
+
+\hypertarget{hashtag}{%
+\section{Hashtag}\label{hashtag}}
+
+Desde ya que además de los objetivos planteados este proyecto tiene la esperanza de impactar la realidad en algún momento. Se alienta el uso del hashtag \textbf{\#paisciudadano} en las redes para referirse y comunicar sobre el proyecto. Con el solo hecho de compartir, ya estás colaborando. Inundemos las redes sociales para desperdigar este mensaje.
+
+Se espera que los mensajes generados en redes sociales con este hashtag se abstengan a los siguientes ``Valores y reglas de estilo y conducta'':
+
+\hypertarget{valores-y-conducta}{%
+\section{Valores y conducta}\label{valores-y-conducta}}
+
+Inspiradas por la \href{https://www.reddit.com/wiki/es/reddiquette}{Reddiqueta} o \href{https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette}{Reddiquette}.
+
+\begin{itemize}
+\tightlist
+\item
+  Recordá que quien lee lo que escribís es un ser humano
+\item
+  Comportate en internet como te comportarías en la vida real
+\item
+  Leé las reglas antes de colaborar
+\item
+  Leé la documentación proveída, para algo está
+\item
+  La moderación se hará con respecto a la calidad del contenido, no a las opiniones
+\item
+  Las opiniones deberán exponerse desde un lugar individual, apartidario y fáctico en la medida de lo posible
+\item
+  Usa la gramática y la ortografía correctamente. Se permiten deformaciones del lenguaje siempre y cuando estén en función de la comunicación.
+\item
+  Es obligatorio citar fuentes si estás utilizando algún recurso externo
+\item
+  Las críticas deben ser constructivas
+\item
+  Tratemos de conservar la buena onda. Para mala onda ya es suficiente con la realidad.
+\end{itemize}
+
+Ver ``Código de Conducta'' para una expansión respecto a estos conceptos: \ref{codigo-de-conducta}.
+
+\hypertarget{estilo-y-contenido}{%
+\section{Estilo y contenido}\label{estilo-y-contenido}}
+
+El estilo del libro tendrá que ser directo y asumir absolutamente ningún conocimiento previo. La prosa pretende ser informativa, ligera y poética a la vez. Se hablarán de cuestiones técnicas pero también de arte. Combinaremos nuestro arte y cultura con soluciones y medidas concretas para modificar nuestra realidad.
+
+\hypertarget{cuxf3mo-colaborar}{%
+\section{Cómo colaborar}\label{cuxf3mo-colaborar}}
+
+Una de las iniciativas será escribir una guía para que cualquiera sin conocimientos en desarrollo web, programación o cualquiera de las tecnologías utilizadas por este libro pueda hacerlo. Por el momento la única referencia con respecto a como colaborar será el proyecto original: \url{https://github.com/rstudio/bookdown}
+
+\hypertarget{codigo-de-conducta}{%
+\chapter{Código de conducta}\label{codigo-de-conducta}}
+
+\hypertarget{nuestro-compromiso}{%
+\section{Nuestro compromiso}\label{nuestro-compromiso}}
+
+Nosotr@s, miembr@s, contribuidores y líderes nos comprometemos a hacer que la participación en nuestra comunidad sea una experiencia libre de acoso u hostigamiento para tod@s, sin importar la edad, el cuerpo, cualquier tipo de impedimento visible o invisible, etnicidad, sexualidad, identidad u expresión de género, nivel de experiencia, educación, posición socio-económica, nacionalidad, apariencia personal, raza, religión o identidad y orientación sexual.
+
+Nos comprometemos a actuar e interactuar con formas que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y saludable.
+
+\hypertarget{nuestros-estuxe1ndares}{%
+\section{Nuestros estándares}\label{nuestros-estuxe1ndares}}
+
+Ejemplos de un comportamiento que contribuye a un ambiente positivo para nuestra comunidad incluyen:
+
+\begin{itemize}
+\tightlist
+\item
+  Demostrar empatía y amabilidad para con las personas
+\item
+  Ser respetuoso de otras opiniones, puntos de vistas y experiencias
+\item
+  Dar y recibir agradecidamente el feedback constructivo
+\item
+  Aceptar responsabilidades y disculparse para quienes sean afectados por nuestros errors, y aprendiendo de la experiencia
+\item
+  Enfocarse en lo que es mejor no solo para nosotros como individuos, sino para toda la comunidad
+\end{itemize}
+
+Ejemplos de un comportamiento que no será aceptado incluyen:
+
+\begin{itemize}
+\tightlist
+\item
+  El uso de lenguaje o imágenes sexualizadas y cualquier tipo de atención o avance sexual
+\item
+  Trolling, insultos o comentarios derogativos y cualquier tipo de ataque político o personal
+\item
+  Acoso público o privado
+\item
+  Publicación de información privada de terceros sin su permiso explícito
+\item
+  Cualquier otra conducta que pueda ser razonablemente considerada inapropiada en un entorno profesional
+\end{itemize}
+
+\hypertarget{responsabilidades-de-ejecuciuxf3n}{%
+\section{Responsabilidades de Ejecución}\label{responsabilidades-de-ejecuciuxf3n}}
+
+L@s líderes de la comunidad son responsables de clarificar y hacer cumplir nuestros estándares de comportamiento aceptado y tomarán acciones correctivas apropiadas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenzante, ofensivo o dañino.
+
+L@s líderes de la comunidad tienen el derecho y la responsabilidad de remover, editar o rechazar comentarios, commits, código, ediciones de wiki, issues/tickets y cualquier otra contribución que no esté alineada a este Código de Conducta y comunicarán las razones de su acción moderadora de ser necesario.
+
+\hypertarget{alcance}{%
+\section{Alcance}\label{alcance}}
+
+Este Código de Conducta aplica a todos los espacios comunitarios y también aplica a un individuo que esté representando oficialmente a la comunidad en espacios públicos. Ejemplos de ``representación'' incluyen utilizar una dirección de e-mail oficial, postear via una cuenta oficial de redes sociales o actuando como un representante en un evento online u offline.
+
+\hypertarget{ejecuciuxf3n}{%
+\section{Ejecución}\label{ejecuciuxf3n}}
+
+Las instancias de comportamiento inaceptable, abusivo o acosador pueden ser reportadas a l@s líderes de la comunidad responsables de ejecutar el Código de Conducta. Todas las denuncias serán revisadas e investigadas prontamente y justamente.
+
+Tod@s l@s líderes de la comunidad están obligad@s a respetar la privacidad y seguridad de quien reporte cualquier incidente.
+
+\hypertarget{medidas-de-ejecuciuxf3n}{%
+\section{Medidas de Ejecución}\label{medidas-de-ejecuciuxf3n}}
+
+L@s líderes de la comunidad seguirán estas ``Pautas de Impacto en la Comunidad'' para determinar las consecuencias de cualquier acción que consideren viole este Código de Conducta:
+
+\hypertarget{correcciuxf3n}{%
+\subsection{CORRECCIÓN}\label{correcciuxf3n}}
+
+Impacto en la Comunidad: Uso de lenguaje inapropiado o cualquier otro comportamiento considerado no profesional o no bienvenido en la comunidad.
+
+Consecuencia: Una advertencia escrita por pivado de parte de l@s líderes de la comunidad, proveyendo claridad respecto a la naturaleza de la violación y una explicación de por qué el comportamiento fue inapropiado. Una disculpa pública puede ser solicitada.
+
+\hypertarget{advertencia}{%
+\subsection{ADVERTENCIA}\label{advertencia}}
+
+Impacto en la Comunidad: Una violación a través de un incidente único o una serie de acciones.
+
+Consecuencia: Una advertencia con consecuencias por comportamiento continuo. No se permite la interacción con las personas involucradas, incluyendo interacciones no solicitadas para con quienes hacen cumplir el Código de Conducta, por un período especificado de tiempo. Esto incluye evitar interacciones en espacios comunitarios así como también canales externos como redes sociales. La violación de estos términos puede llevar a un ban temporal o permanente.
+
+\hypertarget{ban-temporal}{%
+\subsection{BAN TEMPORAL}\label{ban-temporal}}
+
+Impacto en la Comunidad: Una violación seria de los estándares de la comunidad, incluyendo un comportamiento inapropiado sostenido en el tiempo.
+
+Consecuencia: Un ban temporal de cualquier tipo de interacción o comunicación pública para con la comunidad por un período específico de tiempo. No se permite ninguna interacción pública o privada con las personas involucradas, incluyendo interacciones no solicitadas para con quienes hacen cumplir el Código de Conducta. Violar estos términos puede terminar en un ban permanente.
+
+\hypertarget{ban-permanente}{%
+\subsubsection{BAN PERMANENTE}\label{ban-permanente}}
+
+Impacto en la Comunidad: Demostración de patrones de violación de los estándares de la comunidad, incluyendo un comportamiento inapropiado sostenido en el tiempo, acoso de un individuo o agresión o menosprecio por cualquier clase de individuo.
+
+Consecuencia: Un ban permanente de cualquier tipo de interacción con la comunidad.
+
+\hypertarget{atribuciuxf3n}{%
+\section{Atribución}\label{atribuciuxf3n}}
+
+Basado en \url{https://pkgs.rstudio.com/bookdown/CODE_OF_CONDUCT.html} que a su vez está basado en el Contributor Covenant, version 2.0, disponible en \url{https://www.contributor-covenant.org/version/2/0/code_of_conduct.html}.
+
+\hypertarget{intro}{%
+\chapter{Introducción}\label{intro}}
+
+Entre tantas maravillas que han podido crear los seres humanos a lo largo de su historia una de ellas es, sin duda, la escritura. Hay libros que han movido el curso de La Historia. Aún hoy mucha gente toma referencias y consume libros con muchísimos años de antigüedad.
+
+Este proyecto es encarado con la solemnidad histórica que ha tenido cualquier libro que se precie de serlo, y a la vez, elevando aún más la vara: en estos tiempos donde evolucionamos de manera exponencial (aunque no lo parezca) cualquier libro que se plantee los objetivos que se está planteando este libro tiene que entender que un libro al ser impreso se convierte en antigüo en el momento en que la tinta de la imprenta empapa el papel; País Ciudadano es un libro Vivo, Libre y Participativo, en constante transformación.
+
+Esta idea no es nueva y ya se ha implementado exitosamente, algunos ejemplos:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://hybridpedagogy.org/\#publishing}
+\item
+  \url{https://geocompr.github.io/user_19/presentation/\#1}
+\item
+  \url{https://geocompr.robinlovelace.net/}
+\end{itemize}
+
+\hypertarget{el-precedente-doc-para-el-pauxeds}{%
+\chapter{El precedente: Doc Para El País}\label{el-precedente-doc-para-el-pauxeds}}
+
+Esta idea viene rondando en mi cabeza hace rato ya. Tomó forma de Movimiento, Revolución, ONG y ahora de Libro.
+
+Finalmente, todo se trata de Palabras.
+
+Lo irónico es que encarando esta idea del Libro hoy, 6 de Mayo de 2021, mi cabeza me lleva instantáneamente al ``Doc Para El País'' que empecé a escribir en Marzo 2021 y nunca terminé. El título del siguiente apartado, ``Documento para el Desarme Argentino'', es precisamente el título con el cual arrancaba ese Doc.
+
+Si bien el ``Doc Para El País'' era una iniciativa similar a País Ciudadano, no funcionó porque a) no seguí trabajándolo y b) carecía de un encuadre y modo de trabajo comunitario. País Ciudadano es la versión evolucionada de ``Doc Para El País''.
+
+Este capítulo reproduce las palabras escritas en el mencionado doc allá por Marzo de 2021 considerando que son relevantes y dan contexto a País Ciudadano también.
+
+\begin{quote}
+Importante: ``Doc Para El País'' empezó siendo un proyecto ``Argentino'' y por eso hace referencia a esta Nación. País Ciudadano no pretende enarbolar la bandera de ningún país en particular, y está convencido que la crisis de representatividad que vivimos es mundial. Las instituciones que el mundo ha venido usando hasta el momento ya no le sirven a la ciudadanía y se necesita un cambio. Por eso este proyecto no será sobre ``Argentina'' sino sobre El Mundo.
+\end{quote}
+
+\hypertarget{documento-para-el-desarme-argentino}{%
+\section{Documento para el Desarme Argentino}\label{documento-para-el-desarme-argentino}}
+
+¿Hay alguien que no esté cansado de vivir así como vivimos en Argentina 2021? ¿Hay alguien que diga ``qué hermoso país, tal cual así como está, está perfecto, no hay nada por hacer''?
+
+Yo creo que no. Pero bueno, afirmarlo sería pretender el Absoluto.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Lo que te quiero decir es que, como chabón racional que soy, pienso mucho en las posibilidades. En el concepto general de posibilidad. O quizás en el concepto de estadística, no estoy seguro. A lo que voy es a esto: \textbf{es muy importante para todo lo que va a decir este documento}, que pensemos en el concepto de Infinito. Acordate también que \textbf{yo de todo esto no sé NADA, solo escribo palabras lindas. Hay que escuchar a la gente que estudia}. Para algo estudia. Lo mío son solo ideas sueltas. Los cabosideas sueltes les tenemos que atar entre todos.
+
+Bueno, Infinito entonces. ¿Qué es el Infinito? ¿Es ``el''? ¿Es una cosa El Infinito? Mirá, me gusta escribirlo con mayúsculas. Porque cuando escribís cosas con mayúsculas es como que de repente Son Importantes. Es Importante El Infinito. O por lo menos El Concepto De Infinito.
+
+Me fui al Infinito y Más Allá. Tenemos entonces: Posibilidades, Estadística, Infinito. Acá voy: \textbf{¿las posibilidades de que algo suceda en la mismísima infinitud del Universo, algo, cualquier cosa, son infinitas?}
+
+tati.gonzalez1 dice ``yo creo que las cosas pasan por la fuerza del mismo universo'' me gustó
+pia.constanzo dice que hay una frase: ``el universo siempre conspira a mi favor''
+
+Entiendo que sí. Que alguien me ayude con la bibliografía pero debe ser así: \textbf{las posibilidades de que algo, un evento cualquiera suceda, son Infinitas}.
+
+Entonces, partiendo de esa afirmación, ¿podemos decir que existen posibilidades de que Argentina cambie? Sí. Es la única respuesta a esa pregunta, siguiendo la línea de pensamiento que venimos trayendo.
+
+Entonces. Esa es la línea de pensamiento que tenés que tener mientras leés este documento. \textbf{Tu mente tiene que ser una esponja seca hundida en el agua de la bañera}, viste esas de supermercado, que tienen un color suavecito y las hundís en el agua y se oscurecen, se empapan completas, PESAN, CHORREAN AGUA. \textbf{En ese estado tu mente tiene que vivir. Tu mente tiene que estar permeable a nuevas ideas}, y en parte para lograr eso ¿sabés qué tenés que hacer? \textbf{Tenés que cuestionar tus propias ideas}. No te digo todo el tiempo, porque sino te volvés locx y terminás siendo un inconsistente de m****. Pero sí, de vez en cuando, subilas al ring a tus ideas. A ver si se la aguantan.
+
+Esto claramente interpela a la enorme mayoría que hoy en día ``banca'' a cualquiera de los dos partidos políticos dominantes. Que voy a llamar A y B. Para ser lo más imparcial posible. \textbf{No importan los partidos políticos}. Que quede claro, hablo desde un lugar completamente apartidario. Ni siquiera me gusta la política, hablo, hago y soy política en principio porque soy ciudadano - un ciudadano del sistema inevitablemente es un ser político. Hago todo esto para vivir una vida tranquila. Porque estoy convencido que es el camino. Si no lo hago, no voy a vivir tranquilo. ¿Vos, vivís tranquilx?
+
+Volvamos entonces.
+
+Argentina, puede cambiar.
+
+Es un hecho demostrado por la ciencia. (check)
+
+Habiendo acordado eso, arranquemos esto.
+
+\hypertarget{argentina-puede-cambiar}{%
+\section{Argentina Puede Cambiar}\label{argentina-puede-cambiar}}
+
+Yo leo ``Argentina Puede Cambiar'' y francamente pienso en un libro de autoayuda. Y a veces cuando escribo y digo estas cosas onda ``tú puedes'' siento lo mismo: pero carajo, estoy escribiendo un libro de autoayuda! Eso escribí y me fui a googlear sobre ``autoayuda''. Lo loco es que hasta acá vengo diciendo ``autoayuda'' de una manera un poco despectiva, por si no se sintió. Quiero ser transparente al respecto.
+
+Pero este es el punto: haberlo escrito me hizo dar cuenta que yo estaba hasta recién prejuzgando el concepto de ``autoayuda''. Banalizándolo, por decirlo de alguna manera.
+
+Pero el punto de todo esto es que está mal. Está mal prejuzgar. Están mal los preconceptos. ¿Cuántas veces te pasó que tenías una idea y de repente, la cambiás completamente en un instante? Es como ese decir de ``tener un click'', algo, un cambio de rumbo, algo que se dispara en tu vida, en tu cabeza, o algo externo te lo dispara, lo que fuera, y cambiaste.
+
+Y quizás nunca te pasó, y también está bien. Esta indefinición es todo lo hermoso que tiene la vida, y a la vez toda la mierda que tiene. La vida puede ser absolutamente cualquier cosa y ese infinito es hermoso y aterrador a la vez.
+
+Argentinos: (escribo ``Argentinos:'' y ya pienso en populismo y en todo lo malo que le han hecho a nuestra nación - escribo ``populismo'' y ya pienso que alguien podría estar ubicándome a ``la derecha'' de cierto espectro político que aún creemos que existe pero no sabemos bien para qué si sirve o si, sirve para algo en absoluto - pero no importa, quedate conmigo, leeme un poco más, todas estas son las ideas que vengo a combatir - pacíficamente. Siempre pacíficamente.)
+
+Argentinos: Argentina Puede Cambiar.
+
+Podemos cambiar el país. No soy macrista ni kirchnerista. Solo soy un ciudadano argentino escribiendo lo que piensa y pidiendo que sus co-ciudadanos se congreguen de manera pacífica a pensar juntos. Pensemos todos juntos.
+
+Pensemos en cuál es el país que queremos.
+
+Y así, lo vamos a tener.
+
+\hypertarget{cuxf3mo-cambiar}{%
+\section{Cómo Cambiar}\label{cuxf3mo-cambiar}}
+
+Claro ponele que hasta acá me compraste la idea. Si no me la compraste comuniquémonos que lo hablamos juntos y me contás qué parte no te convence. Estoy convencido de que hablando se entiende la gente. Con esa premisa te pregunto: ¿creés en que la infalible manera de avanzar en la vida es: hablando, comunicando lo que sentimos, tratando de no enojarnos, tratando de que las emociones no nos dominen - pero a la vez, de que los pensamientos tampoco nos dominen, y respetando a los demás? Yo creo que sí.
+
+Creo que la violencia no es solución a nada. Es un imposible, pero imaginate poder hacer un estudio serio y estadístico de los actos de violencia que han sucedido en la historia del mundo y en la historia de la humanidad y probablemente el resultado sea que lo único que hizo cualquier tipo de violencia fue generar más violencia.
+
+Cuando te tiran con violencia es muy jodido responder con paz. La violencia genera sentimientos oscuros en lo profundo de uno y la respuesta instintiva es responder con la misma violencia, o más, para ganar.
+
+Pero bueno, el subtítulo de esta sección dice ``Como Cambiar''. Eso es lo segundo que se te viene a la cabeza cuando caés en la cuenta de que Argentina Puede Cambiar. Bueno, este Doc pretende ser un poco eso. Una guía, unas ideas, abrir la cabeza y pensar en Cómo la Argentina Puede Cambiar, qué cosas podrían hacerse, eliminar los ``peros'' uno por uno - llegar a un consenso real y lo más justo posible - para esto vamos a tener que filosofar un poco, pero ya te dije que soy muy racional y amante de los datos y estadísticas, así que todo lo que podamos ``medir'' lo vamos a medir. Todo lo que sea medible hay que medirlo y sacar conclusiones en base a eso. Sin invadir la privacidad de nadie, desde ya. Es como ser una esponja de realidad. La ``Big Data'' nos ayuda a ser esponjas de una realidad pocas veces fácil de absorber.
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
