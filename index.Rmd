@@ -8,7 +8,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: loqesangra/pais-ciudadano
 description: "País Ciudadano es un libro de texto open-source, online, ciudadano y participativo, con el objetivo de definir y modelar un modelo de país en manos de la ciudadanía, y a la vez señalar y denunciar las falencias del status quo."
 ---
 
