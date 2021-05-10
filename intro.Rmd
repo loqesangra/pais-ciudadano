@@ -1,4 +1,6 @@
-# Introducción {#intro}
+# Introducción y resumen general {#intro}
+
+Se hace largo leer hoy en día, lo sabemos. Pero por favor, tomate 5 minutos y leé todo esto.
 
 Entre tantas maravillas que han podido crear los seres humanos a lo largo de su historia una de ellas es, sin duda, la escritura. Hay libros que han movido el curso de La Historia. Aún hoy mucha gente toma referencias y consume libros con muchísimos años de antigüedad.
 
@@ -9,3 +11,53 @@ Esta idea no es nueva y ya se ha implementado exitosamente, algunos ejemplos:
 - https://hybridpedagogy.org/#publishing
 - https://geocompr.github.io/user_19/presentation/#1
 - https://geocompr.robinlovelace.net/
+
+## Status quo
+
+> "Status quo:" expresión latina con que se hace referencia al estado o situación de ciertas cosas, como la economía, las relaciones sociales o la cultura, en un lugar y momentos determinados.
+
+El "lugar y momento determinado" de estas palabras es Argentina 2021 (la colaboración está abierta a cualquier nación, en la medida en que se sumen colaboradores podrá este análisis expandir sus fronteras). Estamos convencidos de que hay una Crisis Mundial Institucional y de Representatividad. Trataremos de explayarnos sobre esta idea pero por ahora la base es la siguiente: todos los países están afrontando, coincidencia más, coincidencia menos, los mismos problemas.
+
+El hecho de decir "mismos problemas" a su vez no pretende afirmar que la vida en todos los países sea igual, sino su causa. Desde ya que hay problemas de magnitudes diferentes en cada uno de los países. Hay países con desnutrición infantil, hay países que no. Hay países con inseguridad, hay países que no. Hay países con economías fuertes, hay países pobres.
+
+La teoría sobre la que se va a basar este libro es que la causa de gran parte de los problemas reinantes en las sociedades actuales se pueden extrapolar, en la mayoría de los casos, a una crisis institucional y de representatividad. Esta idea no es nueva y pueden citarse múltiples referencias académicas de la misma.
+
+
+### Crisis Mundial Institucional y de Representatividad
+
+¿Å qué nos referimos con esto? A una idea muy simple. Tan simple que repasando esta definición de Democracia se puede ver:
+
+> La democracia (del latín tardío democratĭa, y este del griego δημοκρατία dēmokratía) es una manera de organización social que atribuye la titularidad del poder al conjunto de la ciudadanía. En sentido estricto, la democracia es una forma de organización del Estado en la cual las decisiones colectivas son adoptadas por el pueblo mediante mecanismos de participación directa o indirecta que confieren legitimidad a sus representantes. En sentido amplio, democracia es una forma de convivencia social en la que los miembros son libres e iguales y las relaciones sociales se establecen conforme a mecanismos contractuales.
+
+La Crisis Está porque La Democracia No Está. La Democracia está rota en su definición. Hoy la "Democracia" no le otorga la titularidad del poder al conjunto de la ciudadanía. En repetidos países de todo el mundo los mecanismos de participación directa o indirecta que deberían conferir legitimidad a sus represantes, no funcionan así.
+
+Hoy en día "los representantes" del pueblo no responden a los intereses del pueblo; responden a los intereses de las grandes concentraciones de poder (fuerzas económicas, corporativas, de comunicación, sociales).
+
+¿Y por qué pasa esto? Porque El Modelo de Instituciones que tenemos tiene muchos problemas y huecos en su ejecución que permiten manejos espurios, malversación de fondos públicos, manipulación del discurso público, corrupción de todos los tipos, etc.
+
+
+### La solución
+
+Habiendo coincidido en que la Crisis Mundial Institucional y de Representatividad es el gran problema de este siglo, es fácil inferir que la solución entonces pasa por una reformulación absoluta de Nuestras Instituciones, la forma en que funcionan, la forma de gobierno incluso: una reformulación de todo el status quo.
+
+Nuestra forma y sistema de gobierno es "nuestro" de manera literal: nosotros lo definimos como sociedad, nosotros lo cambiamos como sociedad, si la mayoría está de acuerdo.
+
+La solución a nuestros problemas no pasa por discutir cada vez más y más violentamente, la solución a nuestros problemas no pasa por ver quién tiene razón, la solución a nuestros problemas no pasa por los extremos, la solución a nuestros problemas no pasa por individuos.
+
+La solución a nuestros problemas pasa por intercambiar ideas pacíficamente, por sacarse las camisetas políticas y discutir planes de acción, por entender que no hace falta ver quién tiene razón si podemos comprobarlo con estadísticas y datos, por entender que acercándonos y no alejándonos vamos a lograr consenso, por entender que tenemos que hacerlo todos juntos, unidos como sociedad en la medida de lo posible, y entendiendo que, justamente, como la definición de arriba dice:
+
+Podemos construir Una Democracia (o Forma de Gobierno) donde realmente se genere una convivencia social en la que los miembros son libres e iguales (iguales ante La Forma, entendiendo que a la vez Somos Únicos y Diferentes) y las relaciones sociales se establecen conforme a mecanismos contractuales.
+
+### Cómo
+
+Hace no tantos años un proyecto de esta magnitud requeriría años de planeamiento, muchísimo dinero atrás, etc. Básicamente, formar un partido político. Hoy en día tenemos la tecnología necesaria para hacer que sea REAL esa idea de "gobierno de la multitud" como decía Platón o "gobierno de los más" como decía Aristóteles.
+
+Cuando caés en la cuenta de que el sistema de gobierno que utilizamos hoy nació en el siglo XVIII con las revoluciones francesa y estadounidense. ¿Somos concientes de esto? Por favor. Estamos gobernando con sistemas de gobierno que fueron pensados en el año 1780 aproximadamente. Nuestro sistema de gobierno fue pensado hace 241 años.
+
+Creemos que es hora de repensarlo. De eso se trata #paísciudadano. Esta iniciativa que por el momento tiene forma de libro. Podría ser mucho más.
+
+
+
+
+
+

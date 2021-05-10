@@ -1,0 +1,6 @@
+# Cómo colaborar {#como-colaborar}
+
+Esta guía básica está
+
+https://github.com/rstudio/bookdown
+https://github.com/loqesangra/pais-ciudadano
