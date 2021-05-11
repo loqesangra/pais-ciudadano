@@ -23,6 +23,8 @@ País Ciudadano es un libro:
 
 El objetivo es tener una referencia online multidisciplinaria de un modelo de país que todavía no se ha pensado. Si los fundadores de las patrias modernas hubieran tenido las herramientas que tenemos hoy, ¿habrían fundado los países tal y como los conocemos?
 
+Si tenés poco tiempo te recomendamos por lo menos leer la [Introducción y resumen general]. Te lleva 5 minutos como mucho.
+
 El código fuente del sitio se encuentra en https://github.com/loqesangra/pais-ciudadano.
 
 ## Lineamientos
@@ -72,6 +74,7 @@ El libro y proyecto es abierto y público en todo sentido. No se pretende tener 
 - Ayuda editorial para definir mejor los contenidos y lineamientos
 - Algún tipo de gerencia de proyecto para definir prioridades y roadmap
 - Ayuda técnica para lidiar con las herramientas tecnológicas
+
 
 ## Posibles capítulos y temáticas a ser escritas
 
