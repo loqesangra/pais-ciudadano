@@ -8,6 +8,7 @@ output_dir: "docs"
 rmd_files: [
   "index.Rmd",
   "intro.Rmd",
+  "ideologia.Rmd",
   "precedente.Rmd",
   "apendice.Rmd"
   ]
