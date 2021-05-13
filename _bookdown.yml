@@ -9,5 +9,6 @@ rmd_files: [
   "index.Rmd",
   "intro.Rmd",
   "ideologia.Rmd",
+  "partidos-politicos.Rmd",
   "apendice.Rmd"
   ]
